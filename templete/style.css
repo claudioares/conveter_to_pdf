@@ -30,10 +30,11 @@ p{
     width: 100%;
     gap: 50px;
 
-    background-image: url("../assets/bg.png");
+    background-color: rgb(20, 19, 19);
+    /* background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 
     color: antiquewhite;
 }
