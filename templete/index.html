@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de imagem para pdf</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js" integrity="sha512-a9NgEEK7tsCvABL7KqtUTQjl69z7091EVPpw5KxPlZ93T141ffe1woLtbXTX+r2/8TtTvRX/v4zTL2UlMUPgwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        
+    </div>
+    <div class="container">
+
+        <h1>Converter Imagem para PDF</h1>
+
+        <div id="content">
+            <span>
+                Utilize o botão abaixo para carregar os seus documentos e começar!
+            </span>
+            <div class="content_info_button">
+                <p>
+                    O conversor suporta os formatos JPEG, PNG.
+                </p>
+                <label for="fileInput" class="label">Procure um documento</label>
+                <input type="file" id="fileInput" accept="*" />
+            </div>
+        </div>
+
+        <button id="convertButton" class="button">Converter para PDF</button>
+
+        <a 
+            id="downloadLink" 
+            style="display: none" 
+            download="converted.pdf"
+            class="button"
+        >Baixar PDF</a>
+    </div>
+</body>
+</html>
