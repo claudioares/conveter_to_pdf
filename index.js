@@ -4,7 +4,7 @@ convertButton.addEventListener('click', () => {
     
     const fileInput = document.querySelector('#fileInput');
     const downloadLink = document.querySelector('#downloadLink');
-    if(!fileInput.value) return alert("Clique no botão 'Procurar um documento'");
+    if(!fileInput.value) return alert("Clique no botão 'Procure um documento'");
     
     const file = fileInput.files[0];
     const formatFile = file.type;
