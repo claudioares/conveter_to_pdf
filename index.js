@@ -2,8 +2,8 @@ const convertButton = document.querySelector("#convertButton");
 
 convertButton.addEventListener('click', () => {
     
-    const fileInput = document.getElementById('fileInput');
-    const downloadLink = document.getElementById('downloadLink');
+    const fileInput = document.getElementById('#fileInput');
+    const downloadLink = document.getElementById('#downloadLink');
 
     const file = fileInput.files[0];
     const formatFile = file.type;
