@@ -9,7 +9,6 @@ body {
   width: 100vw auto;
 
   letter-spacing: -0.75px;
-  /* text-wrap: balance; */
 }
 label {
   cursor: pointer;
@@ -30,13 +29,17 @@ p {
   width: 100%;
   gap: 50px;
 
-  /* background-color: rgb(20, 19, 19); */
   background-image: url("./assets/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
   color: antiquewhite;
+}
+.logo {
+  width: 120px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 .container h1 {
   line-break: 120%;
